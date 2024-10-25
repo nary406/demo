@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import UserProfile from '../../models/UserProfile'; // Make sure to create a model file
+import UserProfile from "../models/userprofile"; // Make sure to create a model file
 
 dotenv.config();
 

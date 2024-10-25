@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import UserProfile from '../../models/UserProfile'; // Make sure to create a model file
-
+import UserProfile from "../models/userprofile"
 dotenv.config();
 
 mongoose.connect(process.env.MONGO_URI, { family: 4 })
